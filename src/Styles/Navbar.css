@@ -1,0 +1,70 @@
+/* body {
+    background: #eee;
+}
+
+#side_nav {
+    background: #000;
+    min-width: 250px;
+    max-width: 250px;
+    transition: all 0.3s;
+}
+
+.content {
+    min-height: 100vh;
+    width: 100%;
+}
+
+hr.h-color {
+    background: #eee;
+}
+
+.sidebar li.active {
+    background: #eee;
+    border-radius: 8px;
+}
+
+.sidebar li.active a,
+.sidebar li.active a:hover {
+    color: #000;
+}
+
+.sidebar li a {
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    #side_nav {
+        margin-left: -250px;
+        position: absolute;
+        min-height: 100vh;
+        z-index: 1;
+    }
+
+    #side_nav.active {
+        margin-left: 0;
+    }
+} */
+/* .navigationbar {
+    background-color: #272356;
+}
+
+/* Image styles */
+.relevantzimage {
+    height: auto; /* Make height auto for responsiveness */
+    width: 100%; /* Make width 100% within its column */
+    max-width: 200px; /* Set a max-width for larger screens */
+    border-radius: 2px;
+}
+
+/* Responsive navbar and image */
+@media (max-width: 991px) {
+    .navigationbar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .relevantzimage {
+        margin: 0 auto; /* Center the image on smaller screens */
+        display: block; /* Change display to block for smaller screens */
+    }
+} 

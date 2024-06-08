@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Align items horizontally */
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    /* Adjust as needed */
+    width: 100%;
+}
+
+.card {
+    flex: 0 0 30%;
+    /* Adjust card width */
+    margin-bottom: 20px;
+    /* Adjust spacing between cards */
+    text-align: center;
+    /* Center text inside cards */
+    border: 1px solid #ddd;
+    /* Add border for better visibility */
+    border-radius: 5px;
+    /* Add border radius for rounded corners */
+    padding: 10px;
+    /* Add padding inside cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add box shadow for depth */
+}
+
+.card-title {
+    margin-top: 10px;
+    /* Adjust spacing above title */
+    font-size: 1.2em;
+    /* Adjust title font size */
+}
+
+.card-text {
+    margin-top: 5px;
+    /* Adjust spacing above text */
+    font-size: 1em;
+    /* Adjust text font size */
+}

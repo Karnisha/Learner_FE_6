@@ -1,0 +1,159 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #27235C;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 150px;
+  }
+  
+  .logo span {
+    font-size: 1.2em;
+    margin-left: 10px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 0px;
+    width: 1000px;
+  }
+  
+  
+  /* .search-bar a {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+   */
+  .nav-link {
+    display: flex;
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+  
+  }
+  
+  .nav-link li {
+    margin-right: 20px;
+    color: #fff;
+  }
+  
+  .nav-link li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-link li.active a {
+    color: yellow; /* Change color to represent active page */
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-profile img {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-profile span {
+    font-weight: bold;
+  }
+  
+  .navbar-brand img{
+    width: 200px;
+  }
+  
+  .input-group{
+    width:500px;
+  }
+  .icon{
+    color: #fff;
+  }
+  
+  
+  /* Apply styles to the search results div */
+  /* .search-results {
+  position: absolute;
+  top: 100%; 
+  left: 30;
+  width: 30%;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  color: black;
+  } */
+  
+  /* Style the list inside the search results */
+  /* .search-results ul {
+  list-style-type: none;
+  padding: 0;
+  } */
+  
+  /* .search-results li {
+  padding: 10px;
+  border-bottom: 1px solid #eee; 
+  } */
+  
+  /* Highlight the last item (optional) */
+  /* .search-results li:last-child {
+  border-bottom: none;
+  } */
+  
+  /* Example: Hover effect on search result items */
+  /* .search-results li:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+  } */
+  
+  
+  .suggestions-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    color: black  ;
+    background: rgb(255, 255, 255);
+    border: 1px solid #ccc;
+    z-index: 1000;
+    list-style: none;
+    /* width: 100vw; */
+    max-height: 200px;
+    overflow-y: auto;
+    /* margin-left: ; */
+  }
+  
+  .suggestions-dropdown li {
+    padding: 10px;
+    cursor: pointer;
+    width: 365px;
+  }
+  
+  .suggestions-dropdown li:hover {
+    background-color: #f0f0f0;
+  }
+
+  .course-avatar{
+    margin-right: 0px;
+    margin-left: 980px;
+  }

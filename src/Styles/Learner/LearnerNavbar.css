@@ -1,0 +1,30 @@
+/* .bar{
+    color: rgb(13, 13, 15);
+}
+
+.css-19z1ozs-MuiPaper-root-MuiAppBar-root {
+    background-color: #d5d4e1;
+  }
+
+  Toolbar{
+    background-color: #2517df;
+  } */
+  .navbar-imaged{
+    width: 200px;
+    color: antiquewhite;
+  }
+  .navbar-name{
+    padding-left: 15px;
+    padding-top: 6px;
+  }
+  .avatar{
+ margin-right: 0px;
+ margin-left: 980px;
+ 
+
+  }
+
+  .css-sy1go3-MuiAvatar-root{
+    color: blue;
+ 
+  }

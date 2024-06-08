@@ -1,0 +1,83 @@
+#thumbnail{
+    width:150px
+}
+
+#coursedetails{
+    margin-left: 25px;
+}
+
+#Card{
+    margin-left: 30px;
+    margin-top: 20px;
+    width:250px;
+    text-decoration: none;
+    margin-right: 30px;
+    
+
+
+#Card:hover {
+        transform: scale(1.05);
+        transition: transform .2s;
+        box-shadow: 4px 8px 8px 4px rgba(0,0,0,0.2);
+    }
+    
+  
+   
+}
+
+#cardcontent{
+   margin-left: 25px;
+}
+
+.box
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#thumbnail{
+    width:150px
+}
+
+#coursedetails{
+    margin-left: 25px;
+}
+
+#Card{
+    margin-left: 280px;
+    margin-top: 20px;
+    width:60vw;
+   height: 60px;
+    text-decoration: none;
+    margin-right: 30px;
+    
+
+
+#Card:hover {
+        transform: scale(1.05);
+        transition: transform .2s;
+        box-shadow: 4px 8px 8px 4px rgba(0,0,0,0.2);
+    }
+    
+  
+   
+}
+
+#cardcontent{
+   margin-left: 25px;
+}
+
+.box
+{
+    
+    flex-direction: row;
+}
+.level{
+    margin-top: 25px;
+}
+.level h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+    
+}

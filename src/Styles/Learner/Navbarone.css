@@ -1,0 +1,132 @@
+.navbar {
+    margin-bottom: 0;
+    background-color:#27235C;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+  }
+  
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #aecde6!important;
+    background-color: #fff !important;
+  }
+  
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+.tree {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .tree li {
+    margin: 0;
+    padding: 10px 0;
+    color: #dfd8d8;
+    /* position: relative; */
+  }
+  
+  .tree li::before {
+    content: '+';
+    position: absolute;
+    left: -20px;
+    
+  }
+  
+  .tree li.folder::before {
+    content: '+';
+  }
+  
+  .tree li.folder.open::before {
+    content: '-';
+  }
+  
+  .tree li.file::before {
+    content: '\25A0'; /* Unicode for square */
+    margin-right: 5px;
+  }
+  
+  .tree li ul {
+    margin-left: 20px;
+  }
+  
+  .tree li ul.hidden {
+    display: none;
+  }
+  .tree li.folder{
+    /* background-color: #2196F3; */
+  }
+  .tree li.file{
+    /* background-color: #64B5F6; */
+    padding-left: 0px;
+    
+  }
+  .tree li.folder.open{
+    /* background-color: #1976D2; */
+
+  }
+  .tree{
+    width:100px;
+    height: 100%;
+    background-color:#27235C;
+    /* overflow-y: auto; */
+    padding: 2px;
+    height:800px;
+
+  }
+  /* .tree li {
+    cursor:pointer;
+    border-radius: 5px;
+    margin-bottom:10px;
+  } */
+  .logo
+  {
+    size: 24px;
+  }
+  .tree li:hover{
+    /* background-color: #1565C0; */
+  }
+  .tree li.folder::before,.tree li.folder.open::before{
+    color: #fff;
+  }
+  .tree li.file::before{
+    /* color: #64b5f6; */
+  }
+  .tree li.folder.open ul{
+    display: block;
+  }
+  .tree li ul{
+    margin-left: 0px;
+    display:none;
+
+  }
+  .tree li.file:hover{
+    background-color: #f4f7f8;
+    cursor:pointer;
+    border-radius: 2px;
+    margin-bottom:5px;
+  }
+  .selected-component-wrapper{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:0px;
+
+  }
+
+  .Scroll{
+
+overflow: hidden;
+height: 80vh;
+scrollbar-width: none;
+
+  }
